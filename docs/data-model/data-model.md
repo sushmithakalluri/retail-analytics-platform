@@ -182,3 +182,75 @@ dim_seller
 dim_date
       |
 fact_order_items
+
+# Retail Analytics Data Warehouse
+
+## Source System
+
+Brazilian E-Commerce Dataset (Olist)
+
+## Bronze Layer
+
+Raw source data loaded into PostgreSQL.
+
+Tables:
+
+- orders
+
+- order_items
+
+- customers
+
+- products
+
+- sellers
+
+- order_payments
+
+- order_reviews
+
+- product_category_translation
+
+## Business Grain
+
+### Orders
+
+One row = One order
+
+### Order Items
+
+One row = One product within an order
+
+### Payments
+
+One row = One payment transaction
+
+## Planned Silver Layer
+
+- customer_clean
+
+- product_clean
+
+- seller_clean
+
+- order_clean
+
+- payment_clean
+
+## Planned Gold Layer
+
+Dimensions:
+
+- dim_customer
+
+- dim_product
+
+- dim_seller
+
+- dim_date
+
+Facts:
+
+- fact_order_items
+
+- fact_payments

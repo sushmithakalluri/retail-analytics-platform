@@ -131,3 +131,12 @@ Pipeline features:
 ## Dataset
 
 Brazilian E-Commerce Public Dataset by Olist.
+
+### Planned Cloud Architecture
+
+The project is designed to be cloud-ready. In a production Azure environment:
+
+- Raw files would be stored in Azure Blob Storage.
+- Azure Data Factory or Synapse Pipelines would orchestrate ingestion.
+- Azure Synapse Analytics would provide scalable data warehousing and analytics capabilities.
+- Power BI could connect directly to the Gold reporting layer.

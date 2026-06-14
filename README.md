@@ -140,3 +140,12 @@ The project is designed to be cloud-ready. In a production Azure environment:
 - Azure Data Factory or Synapse Pipelines would orchestrate ingestion.
 - Azure Synapse Analytics would provide scalable data warehousing and analytics capabilities.
 - Power BI could connect directly to the Gold reporting layer.
+
+## Future Enhancements
+
+- Azure Blob Storage as the raw data landing zone.
+- Azure Data Factory / Synapse Pipelines for orchestration.
+- PySpark transformations using Azure Synapse Spark pools.
+- Slowly Changing Dimension (SCD Type 2) support.
+- Power BI dashboard connected to the Gold layer.
+- Incremental loading and partitioning strategies.

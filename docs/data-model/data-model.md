@@ -254,3 +254,15 @@ Facts:
 - fact_order_items
 
 - fact_payments
+
+## Cloud Data Warehouse Alignment
+
+The dimensional model used in this project is designed to be portable across traditional relational databases and cloud data warehouse platforms such as Azure Synapse Analytics, Azure SQL, Amazon Redshift, and Snowflake.
+
+The use of:
+- Star schema,
+- Surrogate keys,
+- Fact and dimension separation,
+- Bronze/Silver/Gold layering,
+
+follows common industry patterns for modern analytical platforms.

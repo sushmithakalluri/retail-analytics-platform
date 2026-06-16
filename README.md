@@ -149,3 +149,7 @@ The project is designed to be cloud-ready. In a production Azure environment:
 - Slowly Changing Dimension (SCD Type 2) support.
 - Power BI dashboard connected to the Gold layer.
 - Incremental loading and partitioning strategies.
+
+- Azure Data Factory orchestration pipelines
+- Automated Bronze → Silver → Gold execution
+- Scheduled warehouse refreshes

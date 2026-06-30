@@ -17,3 +17,7 @@ CSV_TABLE_MAPPING = {
     "order_reviews": "olist_order_reviews_dataset.csv",
     "product_category_translation": "product_category_name_translation.csv"
 }
+
+PARQUET_OUTPUT_PATHS = {
+    "silver_sales": "data/parquet/silver/sales"
+}
